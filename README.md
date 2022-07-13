@@ -17,6 +17,7 @@ O projeto permite que você:
 + Altere livros
 + Liste todos os livros
 + Liste um livro pelo id
++ Liste todos os livros pelo id de um autor
 + Exclusão de livros pelo id
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
