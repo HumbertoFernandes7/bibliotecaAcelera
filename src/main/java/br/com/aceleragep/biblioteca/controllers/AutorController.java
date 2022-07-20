@@ -1,7 +1,6 @@
 package br.com.aceleragep.biblioteca.controllers;
 
 import java.net.URI;
-import java.util.List;
 
 import javax.validation.Valid;
 
@@ -20,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.aceleragep.biblioteca.config.ControllerConfig;
+import br.com.aceleragep.biblioteca.configs.ControllerConfig;
 import br.com.aceleragep.biblioteca.converties.AutorConvert;
 import br.com.aceleragep.biblioteca.converties.LivroConvert;
 import br.com.aceleragep.biblioteca.dto.inputs.AutorInput;

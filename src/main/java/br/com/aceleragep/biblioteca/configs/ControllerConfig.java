@@ -1,4 +1,4 @@
-package br.com.aceleragep.biblioteca.config;
+package br.com.aceleragep.biblioteca.configs;
 
 public class ControllerConfig {
 

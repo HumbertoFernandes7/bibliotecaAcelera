@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import br.com.aceleragep.biblioteca.config.ControllerConfig;
+import br.com.aceleragep.biblioteca.configs.ControllerConfig;
 import br.com.aceleragep.biblioteca.converties.LivroConvert;
 import br.com.aceleragep.biblioteca.dto.inputs.LivroInput;
 import br.com.aceleragep.biblioteca.dto.outputs.LivroOutput;

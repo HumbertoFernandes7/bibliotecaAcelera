@@ -1,4 +1,4 @@
-package br.com.aceleragep.biblioteca.config;
+package br.com.aceleragep.biblioteca.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
