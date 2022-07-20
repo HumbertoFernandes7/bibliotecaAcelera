@@ -9,6 +9,12 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Length;
 
+import br.com.aceleragep.biblioteca.entities.AutorEntity;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class LivroInput {
 
 	@NotBlank
@@ -20,24 +26,4 @@ public class LivroInput {
 	
 	@Size(min = 1)
 	private List<Long> autoresIds;
-	
-	public String getTitulo() {
-		return titulo;
-	}
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-	public Integer getAnoLancamento() {
-		return anoLancamento;
-	}
-	public void setAnoLancamento(Integer anoLancamento) {
-		this.anoLancamento = anoLancamento;
-	}
-	public List<Long> getAutoresIds() {
-		return autoresIds;
-	}
-	public void setAutoresIds(List<Long> autoresIds) {
-		this.autoresIds = autoresIds;
-	}
-
 }

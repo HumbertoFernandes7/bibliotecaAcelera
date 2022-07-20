@@ -15,6 +15,8 @@ import javax.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "tb_livros")
 public class LivroEntity {
@@ -33,36 +35,4 @@ public class LivroEntity {
 	joinColumns = @JoinColumn(name = "livro_id"),
 	inverseJoinColumns = @JoinColumn(name = "autor_id"))
 	private List<AutorEntity> autores;
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getTitulo() {
-		return titulo;
-	}
-
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-
-	public Integer getAnoLancamento() {
-		return anoLancamento;
-	}
-
-	public void setAnoLancamento(Integer anoLancamento) {
-		this.anoLancamento = anoLancamento;
-	}
-
-	public List<AutorEntity> getAutores() {
-		return autores;
-	}
-
-	public void setAutores(List<AutorEntity> autores) {
-		this.autores = autores;
-	}
 }
